@@ -1098,14 +1098,6 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.25"
 
-"@handsontable/formulajs@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.npm.taobao.org/@handsontable/formulajs/download/@handsontable/formulajs-2.0.2.tgz#5be4b9226cc47811f646ae46b1b985230cd82995"
-  integrity sha1-W+S5ImzEeBH2Rq5GsbmFIwzYKZU=
-  dependencies:
-    bessel "^1.0.2"
-    jstat "^1.9.2"
-
 "@handsontable/vue@^4.1.1":
   version "4.1.1"
   resolved "https://registry.npm.taobao.org/@handsontable/vue/download/@handsontable/vue-4.1.1.tgz#5ff7710e5d9d642c3fc776c9800374c1e6dc4ce5"
@@ -2584,11 +2576,6 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
-bessel@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npm.taobao.org/bessel/download/bessel-1.0.2.tgz#828812291e0b62e94959cdea43fac186e8a7202d"
-  integrity sha1-gogSKR4LYulJWc3qQ/rBhuinIC0=
-
 bfj@^6.1.1:
   version "6.1.1"
   resolved "https://registry.npmjs.org/bfj/-/bfj-6.1.1.tgz#05a3b7784fbd72cfa3c22e56002ef99336516c48"
@@ -3071,6 +3058,13 @@ check-types@^7.3.0:
   resolved "https://registry.npmjs.org/check-types/-/check-types-7.4.0.tgz#0378ec1b9616ec71f774931a3c6516fad8c152f4"
   integrity sha512-YbulWHdfP99UfZ73NcUDlNJhEIDgm9Doq9GhpyXbF+7Aegi3CVV7qqMCKTTqJxlvEvnQBp9IA+dxsGN6xK/nSg==
 
+chevrotain@^6.5.0:
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/chevrotain/-/chevrotain-6.5.0.tgz#dcbef415516b0af80fd423cc0d96b28d3f11374e"
+  integrity sha512-BwqQ/AgmKJ8jcMEjaSnfMybnKMgGTrtDKowfTP3pX4jwVy0kNjRsT/AP6h+wC3+3NC+X8X15VWBnTCQlX+wQFg==
+  dependencies:
+    regexp-to-ast "0.4.0"
+
 chokidar@^2.0.2, chokidar@^2.1.6:
   version "2.1.6"
   resolved "https://registry.npmjs.org/chokidar/-/chokidar-2.1.6.tgz#b6cad653a929e244ce8a834244164d241fa954c5"
@@ -3491,27 +3485,12 @@ copy-webpack-plugin@^4.6.0:
     p-limit "^1.0.0"
     serialize-javascript "^1.4.0"
 
-core-js@2.6.9:
+core-js@2.6.9, core-js@^2.4.0, core-js@^2.5.0, core-js@^2.5.7, core-js@^2.6.5:
   version "2.6.9"
   resolved "https://registry.npm.taobao.org/core-js/download/core-js-2.6.9.tgz#6b4b214620c834152e179323727fc19741b084f2"
   integrity sha1-a0shRiDINBUuF5Mjcn/Bl0GwhPI=
 
-core-js@^2.4.0, core-js@^2.5.0, core-js@^2.5.7:
-  version "2.6.8"
-  resolved "https://registry.npmjs.org/core-js/-/core-js-2.6.8.tgz#dc3a1e633a04267944e0cb850d3880f340248139"
-  integrity sha512-RWlREFU74TEkdXzyl1bka66O3kYp8jeTXrvJZDzVVMH8AiHUSOFpL1yfhQJ+wHocAm1m+4971W1PPzfLuCv1vg==
-
-core-js@^2.6.5:
-  version "2.6.5"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.5.tgz#44bc8d249e7fb2ff5d00e0341a7ffb94fbf67895"
-  integrity sha512-klh/kDpwX8hryYL14M9w/xei6vrv6sE8gTHDG7/T/+SEovB/G4ejwcfE/CBzO6Edsu+OETZMZ3wcX/EjUkrl5A==
-
-core-js@^3.0.0:
-  version "3.6.4"
-  resolved "https://registry.npm.taobao.org/core-js/download/core-js-3.6.4.tgz#440a83536b458114b9cb2ac1580ba377dc470647"
-  integrity sha1-RAqDU2tFgRS5yyrBWAujd9xHBkc=
-
-core-js@^3.4.4:
+core-js@^3.0.0, core-js@^3.4.4, core-js@^3.6.4:
   version "3.18.2"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.18.2.tgz#63a551e8a29f305cd4123754846e65896619ba5b"
   integrity sha512-zNhPOUoSgoizoSQFdX1MeZO16ORRb9FFQLts8gSYbZU5FcgXhp24iMWMxnOQo5uIaIG7/6FA/IqJPwev1o9ZXQ==
@@ -4437,6 +4416,11 @@ domhandler@^2.3.0:
   integrity sha512-JiK04h0Ht5u/80fdLMCEmV4zkNh2BcoMFBmZ/91WtYZ8qVXSKjiw7fXMgFPnHcSZgOo3XdinHvmnDUeMf5R4wA==
   dependencies:
     domelementtype "1"
+
+dompurify@^2.1.1:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.3.3.tgz#c1af3eb88be47324432964d8abc75cf4b98d634c"
+  integrity sha512-dqnqRkPMAjOZE0FogZ+ceJNM2dZ3V/yNOuFB7+39qpO93hHhfRpHw3heYQC7DPK9FqbQTfBKUJhiSfz4MvXYwg==
 
 domutils@1.5.1:
   version "1.5.1"
@@ -5834,17 +5818,19 @@ handlebars@^4.0.3:
   optionalDependencies:
     uglify-js "^3.1.4"
 
-handsontable@^7.2.2:
-  version "7.4.2"
-  resolved "https://registry.npm.taobao.org/handsontable/download/handsontable-7.4.2.tgz#11097b17c36e5dffd9f54febdd904c3006c4f28e"
-  integrity sha1-EQl7F8NuXf/Z9U/r3ZBMMAbE8o4=
+handsontable@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/handsontable/-/handsontable-10.0.0.tgz#f9607d23a8f532d647c433c05793863125df1af1"
+  integrity sha512-h59wvFTzF7Qkc+KVE6MaZTa4Ww+jAnkhIiQFGsE2OcQa/u2Rd1ly2K1gPA82dqZhWDGGRrJAo8jLBQixJbHxPQ==
   dependencies:
     "@types/pikaday" "1.7.4"
     core-js "^3.0.0"
-    hot-formula-parser "^3.0.1"
+    dompurify "^2.1.1"
     moment "2.24.0"
     numbro "2.1.2"
     pikaday "1.8.0"
+  optionalDependencies:
+    hyperformula "^1.2.0"
 
 har-schema@^2.0.0:
   version "2.0.0"
@@ -6007,14 +5993,6 @@ hosted-git-info@^2.1.4:
   resolved "https://registry.npmjs.org/hosted-git-info/-/hosted-git-info-2.7.1.tgz#97f236977bd6e125408930ff6de3eec6281ec047"
   integrity sha512-7T/BxH19zbcCTa8XkMlbK5lTo1WtgkFi3GvdWEyNuc4Vex7/9Dqbnpsf4JMydcfj9HCg4zUWFTL3Za6lapg5/w==
 
-hot-formula-parser@^3.0.1:
-  version "3.0.2"
-  resolved "https://registry.npm.taobao.org/hot-formula-parser/download/hot-formula-parser-3.0.2.tgz#d71f03a4ef43ba3074bde383a0e36202b5b64116"
-  integrity sha1-1x8DpO9DujB0veODoONiArW2QRY=
-  dependencies:
-    "@handsontable/formulajs" "^2.0.2"
-    tiny-emitter "^2.1.0"
-
 hpack.js@^2.1.6:
   version "2.1.6"
   resolved "https://registry.npmjs.org/hpack.js/-/hpack.js-2.1.6.tgz#87774c0949e513f42e84575b3c45681fade2a0b2"
@@ -6163,6 +6141,17 @@ https-browserify@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
+
+hyperformula@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/hyperformula/-/hyperformula-1.2.0.tgz#e0115fe415e21fb2fa9beb287077c66f420cb3f1"
+  integrity sha512-beBM3MICTPr4U7ppr1Z9eVOyp1Xh7INnil052ZHM/8xwVaLDMlZ+VFRvor4CzouiZlnAZs0PmiwX3k40voxGIA==
+  dependencies:
+    chevrotain "^6.5.0"
+    core-js "^3.6.4"
+    regenerator-runtime "^0.13.3"
+    tiny-emitter "^2.1.0"
+    unorm "^1.6.0"
 
 iconv-lite@*:
   version "0.6.3"
@@ -7414,11 +7403,6 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
-jstat@^1.9.2:
-  version "1.9.2"
-  resolved "https://registry.npm.taobao.org/jstat/download/jstat-1.9.2.tgz#cd2d24df200fd3488861dc7868be01ff65a238cc"
-  integrity sha1-zS0k3yAP00iIYdx4aL4B/2WiOMw=
-
 katex@^0.6.0:
   version "0.6.0"
   resolved "https://registry.npm.taobao.org/katex/download/katex-0.6.0.tgz#12418e09121c05c92041b6b3b9fb6bab213cb6f3"
@@ -8306,12 +8290,12 @@ mockjs2@^1.0.5:
   dependencies:
     commander "*"
 
-moment@2.24.0, moment@>=2.14.0, moment@^2.21.0, moment@^2.24.0:
+moment@2.24.0:
   version "2.24.0"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
   integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
 
-moment@^2.25.3:
+moment@>=2.14.0, moment@^2.21.0, moment@^2.24.0, moment@^2.25.3:
   version "2.26.0"
   resolved "https://registry.npm.taobao.org/moment/download/moment-2.26.0.tgz#5e1f82c6bafca6e83e808b30c8705eed0dcbd39a"
   integrity sha1-Xh+Cxrr8pug+gIswyHBe7Q3L05o=
@@ -10417,6 +10401,11 @@ regenerator-runtime@^0.13.2:
   resolved "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.2.tgz#32e59c9a6fb9b1a4aff09b4930ca2d4477343447"
   integrity sha512-S/TQAZJO+D3m9xeN1WTI8dLKBBiRgXBlTJvbWjCThHWZj9EvHK70Ff50/tYj2J/fvBY6JtFVwRuazHN2E7M9BA==
 
+regenerator-runtime@^0.13.3:
+  version "0.13.9"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz#8925742a98ffd90814988d7566ad30ca3b263b52"
+  integrity sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==
+
 regenerator-runtime@^0.13.4:
   version "0.13.5"
   resolved "https://registry.npm.taobao.org/regenerator-runtime/download/regenerator-runtime-0.13.5.tgz#d878a1d094b4306d10b9096484b33ebd55e26697"
@@ -10443,6 +10432,11 @@ regex-not@^1.0.0, regex-not@^1.0.2:
   dependencies:
     extend-shallow "^3.0.2"
     safe-regex "^1.1.0"
+
+regexp-to-ast@0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/regexp-to-ast/-/regexp-to-ast-0.4.0.tgz#f3dbcb42726cd71902ba50193f63eab5325cd7cb"
+  integrity sha512-4qf/7IsIKfSNHQXSwial1IFmfM1Cc/whNBQqRwe0V2stPe7KmN1U0tWQiIx6JiirgSrisjE0eECdNf7Tav1Ntw==
 
 regexp-tree@^0.1.6:
   version "0.1.10"
@@ -12104,7 +12098,7 @@ universalify@^0.1.0:
   resolved "https://registry.npmjs.org/universalify/-/universalify-0.1.2.tgz#b646f69be3942dabcecc9d6639c80dc105efaa66"
   integrity sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==
 
-"unorm@>= 1.0.0":
+"unorm@>= 1.0.0", unorm@^1.6.0:
   version "1.6.0"
   resolved "https://registry.npm.taobao.org/unorm/download/unorm-1.6.0.tgz#029b289661fba714f1a9af439eb51d9b16c205af"
   integrity sha1-ApsolmH7pxTxqa9DnrUdmxbCBa8=
